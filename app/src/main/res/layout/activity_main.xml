@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dan.mykursregner.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antal Aktier"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewKK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Købs kurs"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurtage"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/editTextAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Eksempel: 100"/>
+
+    <EditText
+        android:id="@+id/editTextKK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Eksempel: 50.75"
+        />
+
+    <EditText
+        android:id="@+id/editTextK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Eksempel: 120"/>
+
+
+    <TextView
+        android:textSize="25dp"
+        android:text=""
+        android:id="@+id/EvenBreaktext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:text=""
+        android:id="@+id/text1pct"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:text=""
+        android:id="@+id/text5pct"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="10dp"
+        android:text="Intet tab ved kurs"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="10dp"
+        android:text="1% indtægt ved kurs"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="10dp"
+        android:text="5% indtægt ved kurs"
+        />
+
+
+
+
+</FrameLayout>
